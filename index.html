@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Savran — Studio Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Animate on Scroll CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Savran</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HÉRO -->
+  <header class="hero" id="hero">
+    <div class="overlay" data-aos="fade-in">
+      <h1>Bienvenue chez <span class="highlight">Savran</span></h1>
+      <p>Des sites modernes et élégants pour booster votre activité.</p>
+      <a href="#contact" class="btn-primary">Contactez-moi</a>
+    </div>
+  </header>
+
+  <!-- À PROPOS -->
+  <section class="about" id="about" data-aos="fade-up">
+    <div class="container">
+      <h2>À propos</h2>
+      <p>Je suis développeur web passionné, spécialisé dans la création de sites vitrines sur-mesure. J’aide les entrepreneurs, artisans et freelances à se démarquer avec un site moderne et efficace.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services" data-aos="fade-up">
+    <div class="container">
+      <h2>Mes Services</h2>
+      <div class="cards">
+
+        <div class="card" data-aos="zoom-in">
+          <div class="tape"></div>
+          <div class="flap flap-left"></div>
+          <div class="flap flap-right"></div>
+          <h3>Création de site web</h3>
+          <p>
+            <strong>Nous concevons</strong> des sites web uniques, <strong>modernes</strong> et <strong>performants</strong>, adaptés à votre image et vos objectifs. Qu’il s’agisse d’un <strong>portfolio</strong>, d’un <strong>site vitrine</strong> ou d’une plateforme sur mesure, chaque projet est pensé pour capter l’attention et convertir vos visiteurs.
+          </p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="tape"></div>
+          <div class="flap flap-left"></div>
+          <div class="flap flap-right"></div>
+          <h3>Identité visuelle</h3>
+          <p>
+            Donnez une âme à votre marque avec une <strong>identité forte</strong> et cohérente. Logo, palette, typographie, illustrations ou motion design : nous créons des univers visuels <strong>impactants</strong> qui marquent les esprits et renforcent votre crédibilité.
+          </p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="tape"></div>
+          <div class="flap flap-left"></div>
+          <div class="flap flap-right"></div>
+          <h3>Optimisation & stratégie</h3>
+          <p>
+            Au-delà du design, nous vous accompagnons dans la <strong>stratégie digitale</strong> : référencement naturel (SEO), performance, expérience utilisateur (UX) et intégration des outils essentiels. Objectif : faire <strong>décoller votre visibilité</strong> et votre impact en ligne.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Envoyez-moi un mail pour discuter de votre projet :</p>
+      <a href="mailto:savrinstudio@gmail.com" class="btn-primary">Envoyer un mail</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Savran — Tous droits réservés</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
